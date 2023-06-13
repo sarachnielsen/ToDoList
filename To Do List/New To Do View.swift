@@ -48,11 +48,10 @@ struct New_To_Do_View: View {
             let task = ToDoItem(title: title, isImportant: isImportant)
             toDoItems.append(task)
     }
-
+}
 
 struct New_To_Do_View_Previews: PreviewProvider {
     static var previews: some View {
-        New_To_Do_View(title: "", isImportant: false, toDoItems: .constant([]), showNewTask: .constant(true))
+        New_To_Do_View(title: "", isImportant: false, toDoItems: . constant([]), showNewTask: .constant(true))
     }
-}
 }

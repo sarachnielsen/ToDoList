@@ -13,6 +13,7 @@
 		69FC14702A38C1190043D08D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69FC146F2A38C1190043D08D /* Preview Assets.xcassets */; };
 		69FC14772A38C1CD0043D08D /* To Do Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FC14762A38C1CD0043D08D /* To Do Item.swift */; };
 		69FC14792A38C4140043D08D /* New To Do View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FC14782A38C4140043D08D /* New To Do View.swift */; };
+		69FC147B2A38D6FE0043D08D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FC147A2A38D6FE0043D08D /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		69FC146F2A38C1190043D08D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		69FC14762A38C1CD0043D08D /* To Do Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "To Do Item.swift"; sourceTree = "<group>"; };
 		69FC14782A38C4140043D08D /* New To Do View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "New To Do View.swift"; sourceTree = "<group>"; };
+		69FC147A2A38D6FE0043D08D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				69FC146A2A38C1160043D08D /* ContentView.swift */,
 				69FC14762A38C1CD0043D08D /* To Do Item.swift */,
 				69FC14782A38C4140043D08D /* New To Do View.swift */,
+				69FC147A2A38D6FE0043D08D /* Persistence.swift */,
 				69FC146C2A38C1190043D08D /* Assets.xcassets */,
 				69FC146E2A38C1190043D08D /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 				69FC14772A38C1CD0043D08D /* To Do Item.swift in Sources */,
 				69FC14792A38C4140043D08D /* New To Do View.swift in Sources */,
 				69FC14692A38C1160043D08D /* To_Do_ListApp.swift in Sources */,
+				69FC147B2A38D6FE0043D08D /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
